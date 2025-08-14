@@ -2,7 +2,8 @@ import 'package:process_run/process_run.dart';
 
 class Services {
   final Shell _shell = Shell(options: ShellOptions());
-  final String _path = 'C:\\Users\\vindev\\Desktop\\projects\\tester\\main.js';
+  final String _path =
+      'C:\\Users\\Lucas\\Desktop\\temp\\whatsapp-sticker-bot\\bot.js';
 
   Future<void> execPowershellCommand() async {
     await _shell.runExecutableArguments('powershell', [
